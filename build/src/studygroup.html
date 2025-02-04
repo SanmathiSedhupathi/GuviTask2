@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Study Groups</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto pl-4 sm:pl-6 lg:pl-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a href="main.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
+                            <a href="assignment.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Assignment</a>
+                            <a href="calender.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calender</a>
+                            <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Study Groups</a>
+                            <a href="notification.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Notifications</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-white text-2xl">
+                    <a href="home.html">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mx-auto pt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-blue-200 p-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold mb-4">Mathematics Study Group</h2>
+                <p class="text-gray-700 mb-4">Join this group to discuss complex mathematical problems and assignments.</p>
+                <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Join Group</button>
+            </div>
+
+            <div class="bg-green-200 p-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold mb-4">Science Study Group</h2>
+                <p class="text-gray-700 mb-4">Collaborate with peers to understand scientific concepts and conduct experiments.</p>
+                <button class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">Join Group</button>
+            </div>
+
+            <div class="bg-purple-200 p-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold mb-4">History Study Group</h2>
+                <p class="text-gray-700 mb-4">Explore historical events and engage in discussions about different time periods.</p>
+                <button class="bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">Join Group</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="text-2xl font-semibold mb-4 mt-4">Today's Meeting</h1>
+        <table class="table-auto w-full border border-gray-300" >
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="px-4 py-2">Event</th>
+                    <th class="px-4 py-2">Description</th>
+                    <th class="px-4 py-2">Organized By</th>
+                    <th class="px-4 py-2">Time</th>
+                    <th class="px-4 py-2">Action</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-blue-300 divide-x ">
+                <tr class="bg-blue-100 hover:bg-blue-200">
+                    <td class="pl-12 py-2">Meeting</td>
+                    <td class="pl-12 py-2">Discussion on Natural Numbers</td>
+                    <td class="pl-12 py-2">John Smith</td>
+                    <td class="pl-12 py-2">08:30 PM</td>
+                    <td class="pl-12 py-2">
+                        <a href="#" class="text-blue-500 hover:underline">Join Meeting</a>
+                    </td>
+                </tr>
+                <tr class="bg-blue-100 hover:bg-blue-200">
+                    <td class="pl-12 py-2">Online Test</td>
+                    <td class="pl-12 py-2">Multiplication.</td>
+                    <td class="pl-12 py-2">Venu Gopal</td>
+                    <td class="pl-12 py-2">06:45 AM</td>
+                    <td class="pl-12 py-2">
+                        <a href="#" class="text-blue-500 hover:underline">Take Test</a>
+                    </td>
+                    
+                </tr>
+            </tbody>
+        </table>
+
+
+</body>
+</html>

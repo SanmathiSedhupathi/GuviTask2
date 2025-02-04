@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a href="main.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
+                            <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Assignment</a>
+                            <a href="calender.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calender</a>
+                            <a href="studygroup.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Study Groups</a>
+                            <a href="notification.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Notifications</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-white text-2xl">
+                  <a href="home.html">Log Out</a>
+              </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto">
+        <table class="min-w-full divide-y divide-gray-200">
+          <thead>
+            <tr>
+              <th class="px-6 py-3 bg-gray-100 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Assignment</th>
+              <th class="px-6 py-3 bg-gray-100 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Due Date</th>
+              <th class="px-6 py-3 bg-gray-100 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Status</th>
+              <th class="px-6 py-3 bg-gray-100 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">Submission History</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-pink-200">
+            <tr class="hover:bg-green-100">
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="flex items-center">
+                  <div class="ml-4">
+                    <div class="text-sm leading-5 font-medium text-gray-900">Assignment 1</div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900">Oct 31, 2023</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                  Completed
+                </span>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">View Submission History</td>
+            </tr>
+            <tr class="hover:bg-green-100">
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="flex items-center">
+                    <div class="ml-4">
+                      <div class="text-sm leading-5 font-medium text-gray-900">Assignment 2</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="text-sm leading-5 text-gray-900">Oct 02, 2023</div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                    Completed
+                  </span>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">View Submission History</td>
+              </tr>
+              <tr class="hover:bg-red-100">
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="flex items-center">
+                    <div class="ml-4">
+                      <div class="text-sm leading-5 font-medium text-gray-900">Assignment 3</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="text-sm leading-5 text-gray-900">Dec 31, 2023</div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-red-800">
+                    Pending!
+                  </span>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">View Submission History</td>
+              </tr>
+              <tr class="hover:bg-blue-100">
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="flex items-center">
+                    <div class="ml-4">
+                      <div class="text-sm leading-5 font-medium text-gray-900">Assignment 4</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="text-sm leading-5 text-gray-900">Oct 31, 2023</div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-blue-800">
+                    Missed
+                  </span>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">View Submission History</td>
+              </tr>
+              <tr class="hover:bg-red-100">
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="flex items-center">
+                    <div class="ml-4">
+                      <div class="text-sm leading-5 font-medium text-gray-900">Assignment 5</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="text-sm leading-5 text-gray-900">Nov 14, 2023</div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-red-800">
+                    Pending!
+                  </span>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">View Submission History</td>
+              </tr>
+              <tr class="hover:bg-green-100">
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="flex items-center">
+                    <div class="ml-4">
+                      <div class="text-sm leading-5 font-medium text-gray-900">Assignment 6</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="text-sm leading-5 text-gray-900">Oct 2, 2023</div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                    Completed
+                  </span>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">View Submission History</td>
+              </tr>
+              <tr class="hover:bg-red-100">
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="flex items-center">
+                    <div class="ml-4">
+                      <div class="text-sm leading-5 font-medium text-gray-900">Assignment 7</div>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <div class="text-sm leading-5 text-gray-900">Nov 25, 2023</div>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                  <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-red-800">
+                    Pending!
+                  </span>
+                </td>
+                <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500">View Submission History</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+</body>
+</html>      
